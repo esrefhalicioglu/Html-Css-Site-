@@ -1,0 +1,191 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .topnav {
+    position: relative;
+    overflow: hidden;
+    background-color: gray;
+  }
+  
+  .topnav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+  }
+   
+  .topnav-centered a {
+    float: none;
+    position: absolute;
+    font-size: 25px;
+    color: darkblue;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .topnav-right {
+    float: right;
+  }
+  
+  /* Responsive navigation menu (for mobile devices) */
+  @media screen and (max-width: 600px) {
+    .topnav a, .topnav-right {
+      float: none;
+      display: block;
+    }
+    
+    .topnav-centered a {
+      position: relative;
+      top: 0;
+      left: 0;
+      transform: none;
+    }
+  }
+  .bolum1{
+	background: url(resim/1.jpg);
+	width: 100%;
+	height: 555px;
+	padding-top: 1px;
+}
+.yazı1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin-left: 200px;
+	margin-top: 160px;
+}
+.basliklar{
+    font-size: 80px;
+    margin-bottom: -10px;
+}
+.altbasliklar{
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	margin-bottom: 20px;
+}
+.bilgiler{
+    margin-top: 30px;
+    float: left;
+}
+.altbilgi{
+    float: left;
+    margin-right: 20px;
+    text-align: center;
+}
+.butonlar{
+    background-color: gray;
+    padding: 14px 16px;
+    float: left;
+    border-radius: 40px;
+    width: 180px;
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.butonlar:hover,.butonlar2:hover, .sonbuton:hover{
+    background-color: darkblue;
+    text-decoration: none;
+    color:white;
+    font-weight: bolder;
+}
+.bolum2{
+	background: url(resim/2.png) no-repeat;
+	width: 100%;
+	height: 600px;
+    padding-top: 1px;
+}
+.yazı2{
+    float: right;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin-top: 160px;
+}
+.bilgiler2{
+    margin-left: -120px;
+    float: left;
+}
+.butonlar2{
+    float: left;
+    background-color: gray;
+    padding: 14px 16px;
+    border-radius: 40px;
+    width: 300px;
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: -1px;
+    margin-left: 20px;
+}
+.basliklar2{
+    font-size: 80px;
+    margin-bottom: -10px;
+    margin-left: -100px;
+}
+.altbasliklar2{
+    font-size: 24px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 20px;
+    margin-left: -60px;
+}
+.bolum3{
+	background: url(resim/3.jpg);
+	width: 100%;
+	height: 555px;
+	padding-top: 1px;
+}
+.yazı3{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin-left: 200px;
+	margin-top: 160px;
+}
+.bolum4{
+	background: url(resim/3.png) no-repeat;
+	width: 100%;
+	height: 600px;
+    padding-top: 1px;
+}
+.yazı4{
+    float: right;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin-top: 160px;
+}
+.bölüm5{
+	width: 100%;
+	height: 500px;
+	padding-top: 1px;
+}
+ .sonh1{
+	font-size: 60px;
+	margin-bottom: 20px;
+}
+
+.solyazı{
+	margin-top: 60px;
+	width: 400px;
+	float: left;
+	margin-left: 120px;
+}
+img{
+	float: right;
+	width: 750px;
+	height: 500px;
+}
+.sonbuton{
+    float: left;
+    background-color: gray;
+    padding: 14px 16px;
+    border-radius: 40px;
+    width: 300px;
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
